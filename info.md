@@ -80,7 +80,7 @@ rebase запускается в интерактивном режиме, на �
   message (or the oneline, if no original merge commit was
   specified); use -c commit to reword the commit message
 
- u, update-ref <ref> = track a placeholder for the <ref> to be updated to this position in the new commits. The <ref> is updated at the end of the rebase
+ u, update-ref ref = track a placeholder for the ref to be updated to this position in the new commits. The ref is updated at the end of the rebase
 
 * git cherry-pick хэш-коммита - запись скопированного коммита с определенным хэш-ем в виде нового коммита на текущую ветку, не должно быть конфликтов с названием коммита и желательно делать на ветку master/main.
 * git cherry-pick branch - запись скопированного коммита, который яволяется последним на ветке branch, в виде нового коммита на свою текущую ветку.
